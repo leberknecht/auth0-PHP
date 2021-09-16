@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Users_By_Email
  */
-final class UsersByEmail extends ManagementEndpoint
+class UsersByEmail extends ManagementEndpoint
 {
     /**
      * Search Users by Email.

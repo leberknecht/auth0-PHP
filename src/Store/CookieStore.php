@@ -12,7 +12,7 @@ use Auth0\SDK\Utility\Toolkit;
  * Class CookieStore.
  * This class provides a layer to persist transient auth data using cookies.
  */
-final class CookieStore implements StoreInterface
+class CookieStore implements StoreInterface
 {
     public const KEY_HASHING_ALGO = 'sha256';
     public const KEY_CHUNKING_THRESHOLD = 3072;

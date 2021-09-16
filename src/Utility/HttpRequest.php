@@ -19,7 +19,7 @@ use Psr\Http\Message\StreamInterface;
 /**
  * Class HttpRequest
  */
-final class HttpRequest
+class HttpRequest
 {
     public const MAX_REQUEST_RETRIES = 10;
     public const MAX_REQUEST_RETRY_JITTER = 100;

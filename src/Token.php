@@ -11,7 +11,7 @@ use Psr\Cache\CacheItemPoolInterface;
 /**
  * Class Token.
  */
-final class Token
+class Token
 {
     public const TYPE_ID_TOKEN = 1;
     public const TYPE_TOKEN = 2;

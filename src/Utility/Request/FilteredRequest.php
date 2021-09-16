@@ -7,7 +7,7 @@ namespace Auth0\SDK\Utility\Request;
 /**
  * Class FilteredRequest.
  */
-final class FilteredRequest
+class FilteredRequest
 {
     /**
      * Fields to include or exclude from API responses.

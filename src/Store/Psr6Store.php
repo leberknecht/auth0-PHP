@@ -14,7 +14,7 @@ use Psr\Cache\CacheItemPoolInterface;
  *
  * @author Tobias Nyholm <tobias.nyholm@gmail.com>
  */
-final class Psr6Store implements StoreInterface
+class Psr6Store implements StoreInterface
 {
     /**
      * The storage key to store data under.

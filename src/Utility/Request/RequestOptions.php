@@ -7,7 +7,7 @@ namespace Auth0\SDK\Utility\Request;
 /**
  * Class RequestOptions.
  */
-final class RequestOptions
+class RequestOptions
 {
     /**
      * An instance of FilteredRequest or null, for managing field-filtered requests.

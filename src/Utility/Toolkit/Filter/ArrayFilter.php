@@ -9,7 +9,7 @@ use Auth0\SDK\Utility\Toolkit;
 /**
  * Class ArrayFilter.
  */
-final class ArrayFilter
+class ArrayFilter
 {
     /**
      * Values to process.

@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Guardian
  */
-final class Guardian extends ManagementEndpoint
+class Guardian extends ManagementEndpoint
 {
     /**
      * Retrieve all multi-factor authentication configurations.

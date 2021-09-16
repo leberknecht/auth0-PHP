@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Email_Templates
  */
-final class EmailTemplates extends ManagementEndpoint
+class EmailTemplates extends ManagementEndpoint
 {
     /**
      * Create an email template by name.

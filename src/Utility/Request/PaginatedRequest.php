@@ -7,7 +7,7 @@ namespace Auth0\SDK\Utility\Request;
 /**
  * Class PaginatedRequest.
  */
-final class PaginatedRequest
+class PaginatedRequest
 {
     /**
      * Page index of the results to return. First page is 0.

@@ -36,7 +36,7 @@ use Auth0\SDK\Utility\HttpResponsePaginator;
  * @method \Auth0\SDK\API\Management\Users users()
  * @method \Auth0\SDK\API\Management\UsersByEmail usersByEmail()
  */
-final class Management
+class Management
 {
     /**
      * Instance of SdkConfiguration, for shared configuration across classes.

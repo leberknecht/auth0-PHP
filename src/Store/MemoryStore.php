@@ -11,7 +11,7 @@ use Auth0\SDK\Contract\StoreInterface;
  *
  * @author Tobias Nyholm <tobias.nyholm@gmail.com>
  */
-final class MemoryStore implements StoreInterface
+class MemoryStore implements StoreInterface
 {
     /**
      * @var array<string, mixed>

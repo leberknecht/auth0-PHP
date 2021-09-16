@@ -11,7 +11,7 @@ use Psr\Cache\CacheItemPoolInterface;
 /**
  * Class Parser.
  */
-final class Parser
+class Parser
 {
     /**
      * Instance of SdkConfiguration

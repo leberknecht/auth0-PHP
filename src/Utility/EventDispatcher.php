@@ -12,7 +12,7 @@ use Psr\EventDispatcher\StoppableEventInterface;
 /**
  * Class EventDispatcher.
  */
-final class EventDispatcher implements EventDispatcherInterface
+class EventDispatcher implements EventDispatcherInterface
 {
     /**
      * Shared configuration data.

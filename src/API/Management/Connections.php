@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Connections
  */
-final class Connections extends ManagementEndpoint
+class Connections extends ManagementEndpoint
 {
     /**
      * Create a new Connection.

@@ -10,7 +10,7 @@ use Auth0\SDK\Auth0;
  * Class Telemetry
  * Builds, extends, modifies, and formats SDK telemetry data.
  */
-final class HttpTelemetry
+class HttpTelemetry
 {
     /**
      * Library package name to send with telemetry headers.

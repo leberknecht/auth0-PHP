@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Resource_Servers
  */
-final class ResourceServers extends ManagementEndpoint
+class ResourceServers extends ManagementEndpoint
 {
     /**
      * Create a new Resource Server.

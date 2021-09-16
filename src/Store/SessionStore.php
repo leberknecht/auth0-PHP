@@ -12,7 +12,7 @@ use Auth0\SDK\Utility\Toolkit;
  * Class SessionStore
  * This class provides a layer to persist data using PHP Sessions.
  */
-final class SessionStore implements StoreInterface
+class SessionStore implements StoreInterface
 {
     /**
      * Instance of SdkConfiguration, for shared configuration across classes.

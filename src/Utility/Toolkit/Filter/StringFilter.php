@@ -7,7 +7,7 @@ namespace Auth0\SDK\Utility\Toolkit\Filter;
 /**
  * Class StringFilter.
  */
-final class StringFilter
+class StringFilter
 {
     /**
      * Values to process.

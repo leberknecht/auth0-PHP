@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Stats
  */
-final class Stats extends ManagementEndpoint
+class Stats extends ManagementEndpoint
 {
     /**
      * Get active user count statistics.

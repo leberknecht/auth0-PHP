@@ -7,7 +7,7 @@ namespace Auth0\SDK\Exception;
 /**
  * @codeCoverageIgnore
  */
-final class AuthenticationException extends \Exception implements Auth0Exception
+class AuthenticationException extends \Exception implements Auth0Exception
 {
     public const MSG_REQUIRES_GRANT_TYPE = 'A grant type must be specified for this request';
 

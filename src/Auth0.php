@@ -16,7 +16,7 @@ use Auth0\SDK\Utility\TransientStoreHandler;
 /**
  * Class Auth0.
  */
-final class Auth0
+class Auth0
 {
     public const VERSION = '8.0.0';
 

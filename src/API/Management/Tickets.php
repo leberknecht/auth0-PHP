@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Tickets
  */
-final class Tickets extends ManagementEndpoint
+class Tickets extends ManagementEndpoint
 {
     /**
      * Create an email verification ticket.

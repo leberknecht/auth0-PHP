@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Jobs
  */
-final class Jobs extends ManagementEndpoint
+class Jobs extends ManagementEndpoint
 {
     /**
      * Import users from a formatted file into a connection via a long-running job.

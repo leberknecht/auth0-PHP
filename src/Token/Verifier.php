@@ -14,7 +14,7 @@ use Psr\Cache\CacheItemPoolInterface;
 /**
  * Class Verifier.
  */
-final class Verifier
+class Verifier
 {
     /**
      * A string representing the headers and claims portions of a JWT.

@@ -152,7 +152,7 @@ use Psr\Http\Message\StreamFactoryInterface;
  * @method bool pushAudience($audience)
  * @method bool pushOrganization($organization)
  */
-final class SdkConfiguration implements ConfigurableContract
+class SdkConfiguration implements ConfigurableContract
 {
     use ConfigurableMixin;
 

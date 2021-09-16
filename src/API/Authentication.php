@@ -12,7 +12,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Class Authentication
  */
-final class Authentication
+class Authentication
 {
     /**
      * Instance of Auth0\SDK\API\Utility\HttpClient.

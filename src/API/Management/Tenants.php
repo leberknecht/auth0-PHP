@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Tenants
  */
-final class Tenants extends ManagementEndpoint
+class Tenants extends ManagementEndpoint
 {
     /**
      * Return all tenant settings.

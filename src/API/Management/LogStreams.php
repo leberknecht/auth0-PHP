@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Log_Streams
  */
-final class LogStreams extends ManagementEndpoint
+class LogStreams extends ManagementEndpoint
 {
     /**
      * Create a new Log Stream.

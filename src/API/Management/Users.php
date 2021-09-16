@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Users
  */
-final class Users extends ManagementEndpoint
+class Users extends ManagementEndpoint
 {
     /**
      * Create a new user for a given database or passwordless connection.

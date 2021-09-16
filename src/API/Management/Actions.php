@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Actions
  */
-final class Actions extends ManagementEndpoint
+class Actions extends ManagementEndpoint
 {
     /**
      * Create an action. Once an action is created, it must be deployed, and then bound to a trigger before it will be executed as part of a flow.

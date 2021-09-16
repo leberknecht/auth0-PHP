@@ -10,7 +10,7 @@ use Auth0\SDK\Utility\Toolkit\Filter\StringFilter;
 /**
  * Class Filter.
  */
-final class Filter
+class Filter
 {
     /**
      * Values to process.

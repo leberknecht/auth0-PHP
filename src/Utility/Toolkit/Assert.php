@@ -7,7 +7,7 @@ namespace Auth0\SDK\Utility\Toolkit;
 /**
  * Class Assert.
  */
-final class Assert
+class Assert
 {
     /**
      * Values to process.

@@ -31,7 +31,7 @@ use Auth0\SDK\Mixins\ConfigurableMixin;
  * @method bool hasUser()
  * @method bool hasAccessTokenExpiration()
  */
-final class SdkState implements ConfigurableContract
+class SdkState implements ConfigurableContract
 {
     use ConfigurableMixin;
 

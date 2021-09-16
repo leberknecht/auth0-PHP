@@ -7,7 +7,7 @@ namespace Auth0\SDK\Event;
 use Auth0\SDK\Contract\Auth0Event;
 use Psr\Http\Message\RequestInterface;
 
-final class HttpRequestBuilt implements Auth0Event
+class HttpRequestBuilt implements Auth0Event
 {
     private RequestInterface $httpRequest;
 

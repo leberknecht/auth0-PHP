@@ -10,7 +10,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Class HttpClient
  */
-final class HttpClient
+class HttpClient
 {
     public const CONTEXT_GENERIC_CLIENT = 1;
     public const CONTEXT_AUTHENTICATION_CLIENT = 2;

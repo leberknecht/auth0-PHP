@@ -7,7 +7,7 @@ namespace Auth0\SDK\Token;
 /**
  * Class Validator.
  */
-final class Validator
+class Validator
 {
     /**
      * Array representing the claims of a JWT.

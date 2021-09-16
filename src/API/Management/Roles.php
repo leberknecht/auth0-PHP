@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/Roles
  */
-final class Roles extends ManagementEndpoint
+class Roles extends ManagementEndpoint
 {
     /**
      * Create a new Role.

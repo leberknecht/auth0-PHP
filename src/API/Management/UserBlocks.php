@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @link https://auth0.com/docs/api/management/v2#!/User_Blocks
  */
-final class UserBlocks extends ManagementEndpoint
+class UserBlocks extends ManagementEndpoint
 {
     /**
      * Retrieve a list of blocked IP addresses for the login identifiers (email, username, phone number, etc) associated with the specified user.
