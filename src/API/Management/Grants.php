@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Grants
  */
-final class Grants extends ManagementEndpoint implements GrantsInterface
+class Grants extends ManagementEndpoint implements GrantsInterface
 {
     public function delete(
         string $id,

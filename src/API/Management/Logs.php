@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Logs
  */
-final class Logs extends ManagementEndpoint implements LogsInterface
+class Logs extends ManagementEndpoint implements LogsInterface
 {
     public function get(
         string $id,

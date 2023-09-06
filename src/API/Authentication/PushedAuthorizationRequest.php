@@ -15,7 +15,7 @@ use function is_array;
 use function is_int;
 use function is_string;
 
-final class PushedAuthorizationRequest implements PushedAuthorizationRequestInterface
+class PushedAuthorizationRequest implements PushedAuthorizationRequestInterface
 {
     /**
      * @param AuthenticationInterface $authentication A configured instance of the Authentication manager class.

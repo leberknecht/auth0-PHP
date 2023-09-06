@@ -6,7 +6,7 @@ namespace Auth0\SDK\Utility\Toolkit\Filter;
 
 use function is_string;
 
-final class StringFilter
+class StringFilter
 {
     /**
      * StringFilter constructor.

@@ -7,7 +7,7 @@ namespace Auth0\SDK\Event;
 use Auth0\SDK\Contract\Auth0Event;
 use Psr\Http\Message\{RequestInterface, ResponseInterface};
 
-final class HttpResponseReceived implements Auth0Event
+class HttpResponseReceived implements Auth0Event
 {
     public function __construct(
         private ResponseInterface $httpResponse,

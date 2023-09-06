@@ -10,7 +10,7 @@ use Throwable;
 /**
  * @codeCoverageIgnore
  */
-final class NetworkException extends Exception implements Auth0Exception
+class NetworkException extends Exception implements Auth0Exception
 {
     /**
      * @var string

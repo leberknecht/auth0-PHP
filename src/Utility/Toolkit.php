@@ -13,7 +13,7 @@ use function is_array;
 /**
  * A convenience class wrapping various helper methods.
  */
-final class Toolkit
+class Toolkit
 {
     /**
      * Convenience methods for asserting the content of values.

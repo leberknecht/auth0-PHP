@@ -13,7 +13,7 @@ use function is_array;
 use function is_int;
 use function is_string;
 
-final class Token implements TokenInterface
+class Token implements TokenInterface
 {
     // TODO: Replace these with an enum when PHP 8.1 is our min supported version.
     /**

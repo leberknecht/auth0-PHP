@@ -11,7 +11,7 @@ use function is_array;
 /**
  * Builds, extends, modifies, and formats SDK telemetry data.
  */
-final class HttpTelemetry
+class HttpTelemetry
 {
     /**
      * Additional environmental data tp send with telemetry headers, such as PHP version.

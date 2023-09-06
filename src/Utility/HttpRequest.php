@@ -20,7 +20,7 @@ use function is_object;
 use function is_resource;
 use function is_string;
 
-final class HttpRequest
+class HttpRequest
 {
     /**
      * @var int

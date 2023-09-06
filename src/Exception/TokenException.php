@@ -10,7 +10,7 @@ use Throwable;
 /**
  * @codeCoverageIgnore
  */
-final class TokenException extends Exception implements Auth0Exception
+class TokenException extends Exception implements Auth0Exception
 {
     /**
      * @var string

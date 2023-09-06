@@ -6,7 +6,7 @@ namespace Auth0\SDK\Mock\Event;
 
 use function is_string;
 
-final class ListenerEntityMock
+class ListenerEntityMock
 {
     public string $eventClass;
 

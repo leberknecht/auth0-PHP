@@ -9,7 +9,7 @@ use Psr\Http\Message\ResponseInterface;
 
 use function in_array;
 
-final class HttpClient
+class HttpClient
 {
     /**
      * @var int

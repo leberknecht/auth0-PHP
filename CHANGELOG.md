@@ -235,7 +235,7 @@ Many thanks to our community contributors for this release: [elbebass](https://g
 
 **Changes**
 
-- Introduce Interfaces to Final Classes [#581](https://github.com/auth0/auth0-PHP/pull/581) ([komando82](https://github.com/komando82))
+- Introduce Interfaces to classes [#581](https://github.com/auth0/auth0-PHP/pull/581) ([komando82](https://github.com/komando82))
 
 ## [8.0.2](https://github.com/auth0/auth0-PHP/tree/8.0.2) - 2021-10-18
 

@@ -6,7 +6,7 @@ namespace Auth0\SDK\Event\Psr14Store;
 
 use Auth0\SDK\Contract\{Auth0Event, StoreInterface};
 
-final class Set implements Auth0Event
+class Set implements Auth0Event
 {
     private ?bool $success = null;
 

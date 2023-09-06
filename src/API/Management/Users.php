@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Users
  */
-final class Users extends ManagementEndpoint implements UsersInterface
+class Users extends ManagementEndpoint implements UsersInterface
 {
     public function addPermissions(
         string $id,

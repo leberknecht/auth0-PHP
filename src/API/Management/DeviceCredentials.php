@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Device_Credentials
  */
-final class DeviceCredentials extends ManagementEndpoint implements DeviceCredentialsInterface
+class DeviceCredentials extends ManagementEndpoint implements DeviceCredentialsInterface
 {
     public function create(
         string $deviceName,

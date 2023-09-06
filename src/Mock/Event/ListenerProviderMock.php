@@ -6,7 +6,7 @@ namespace Auth0\SDK\Mock\Event;
 
 use Psr\EventDispatcher\ListenerProviderInterface;
 
-final class ListenerProviderMock implements ListenerProviderInterface
+class ListenerProviderMock implements ListenerProviderInterface
 {
     /**
      * @var ListenerEntityMock[] Listeners to execute when an event is triggered.

@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Organizations
  */
-final class Organizations extends ManagementEndpoint implements OrganizationsInterface
+class Organizations extends ManagementEndpoint implements OrganizationsInterface
 {
     public function addEnabledConnection(
         string $id,

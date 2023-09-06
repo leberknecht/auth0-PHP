@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Attack_Protection
  */
-final class AttackProtection extends ManagementEndpoint implements AttackProtectionInterface
+class AttackProtection extends ManagementEndpoint implements AttackProtectionInterface
 {
     public function getBreachedPasswordDetection(
         ?RequestOptions $options = null,

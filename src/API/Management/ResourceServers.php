@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Resource_Servers
  */
-final class ResourceServers extends ManagementEndpoint implements ResourceServersInterface
+class ResourceServers extends ManagementEndpoint implements ResourceServersInterface
 {
     public function create(
         string $identifier,

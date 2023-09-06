@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Log_Streams
  */
-final class LogStreams extends ManagementEndpoint implements LogStreamsInterface
+class LogStreams extends ManagementEndpoint implements LogStreamsInterface
 {
     public function create(
         string $type,

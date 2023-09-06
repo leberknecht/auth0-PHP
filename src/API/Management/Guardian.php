@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Guardian
  */
-final class Guardian extends ManagementEndpoint implements GuardianInterface
+class Guardian extends ManagementEndpoint implements GuardianInterface
 {
     public function deleteEnrollment(
         string $id,

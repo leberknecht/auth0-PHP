@@ -17,7 +17,7 @@ use function is_string;
 /**
  * This class provides a layer to persist transient auth data using cookies.
  */
-final class CookieStore implements StoreInterface
+class CookieStore implements StoreInterface
 {
     /**
      * @var int

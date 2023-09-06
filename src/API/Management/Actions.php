@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Actions
  */
-final class Actions extends ManagementEndpoint implements ActionsInterface
+class Actions extends ManagementEndpoint implements ActionsInterface
 {
     public function create(
         array $body,

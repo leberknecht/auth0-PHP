@@ -11,7 +11,7 @@ use OpenSSLAsymmetricKey;
 
 use function in_array;
 
-final class ClientAssertionGenerator
+class ClientAssertionGenerator
 {
     /**
      * Supported signing algorithms.

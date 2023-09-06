@@ -10,7 +10,7 @@ use Throwable;
 /**
  * @codeCoverageIgnore
  */
-final class PaginatorException extends Exception implements Auth0Exception
+class PaginatorException extends Exception implements Auth0Exception
 {
     /**
      * @var string

@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Emails
  */
-final class Emails extends ManagementEndpoint implements EmailsInterface
+class Emails extends ManagementEndpoint implements EmailsInterface
 {
     public function createProvider(
         string $name,

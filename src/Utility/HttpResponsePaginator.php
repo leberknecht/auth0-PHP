@@ -16,7 +16,7 @@ use function is_array;
 /**
  * @phpstan-implements \Iterator<int,mixed>
  */
-final class HttpResponsePaginator implements Countable, Iterator
+class HttpResponsePaginator implements Countable, Iterator
 {
     /**
      * These endpoints support checkpoint-based pagination (from, take). A 'next' value will be present in responses if more results are available.

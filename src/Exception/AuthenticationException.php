@@ -10,7 +10,7 @@ use Throwable;
 /**
  * @codeCoverageIgnore
  */
-final class AuthenticationException extends Exception implements Auth0Exception
+class AuthenticationException extends Exception implements Auth0Exception
 {
     /**
      * @var string

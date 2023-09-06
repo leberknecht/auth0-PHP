@@ -6,7 +6,7 @@ namespace Auth0\Tests\Utilities;
 
 use Auth0\SDK\API\Management;
 
-final class ManagementMockClient extends MockClientAbstract
+class ManagementMockClient extends MockClientAbstract
 {
     protected Management $client;
 

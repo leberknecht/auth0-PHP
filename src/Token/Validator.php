@@ -11,7 +11,7 @@ use function in_array;
 use function is_array;
 use function is_string;
 
-final class Validator implements ValidatorInterface
+class Validator implements ValidatorInterface
 {
     /**
      * Constructor for the Token Validator class.

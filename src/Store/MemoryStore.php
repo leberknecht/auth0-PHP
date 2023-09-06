@@ -13,7 +13,7 @@ use function array_key_exists;
  *
  * @author Tobias Nyholm <tobias.nyholm@gmail.com>
  */
-final class MemoryStore implements StoreInterface
+class MemoryStore implements StoreInterface
 {
     /**
      * @var array<string, mixed>

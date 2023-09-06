@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Jobs
  */
-final class Jobs extends ManagementEndpoint implements JobsInterface
+class Jobs extends ManagementEndpoint implements JobsInterface
 {
     public function createExportUsers(
         array $body,

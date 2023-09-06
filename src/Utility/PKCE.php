@@ -6,7 +6,7 @@ namespace Auth0\SDK\Utility;
 
 use Exception;
 
-final class PKCE
+class PKCE
 {
     /**
      * Returns the generated code challenge from the given code_verifier. The

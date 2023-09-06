@@ -11,7 +11,7 @@ use Auth0\SDK\Event\Psr14Store\{Boot, Clear, Defer, Delete, Destruct, Get, Set};
 /**
  * This class allows host applications to build custom session storage methods through PSR-14 event hooks.
  */
-final class Psr14Store implements StoreInterface
+class Psr14Store implements StoreInterface
 {
     /**
      * Track if a bootup event has been sent out yet.

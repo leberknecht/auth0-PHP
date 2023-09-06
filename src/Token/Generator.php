@@ -22,7 +22,7 @@ use function in_array;
 use function is_array;
 use function is_string;
 
-final class Generator implements GeneratorInterface, Stringable
+class Generator implements GeneratorInterface, Stringable
 {
     // Lookup table for supported digest algorithms as strings.
     /**

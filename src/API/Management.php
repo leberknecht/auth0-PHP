@@ -13,7 +13,7 @@ use Psr\Cache\CacheItemPoolInterface;
 
 use function is_array;
 
-final class Management extends ClientAbstract implements ManagementInterface
+class Management extends ClientAbstract implements ManagementInterface
 {
     /**
      * Instance of Auth0\SDK\API\Utility\HttpClient.

@@ -10,7 +10,7 @@ use Throwable;
 use function is_array;
 use function is_string;
 
-final class Assert
+class Assert
 {
     /**
      * ArrayProcessor Constructor.

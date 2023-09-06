@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Stats
  */
-final class Stats extends ManagementEndpoint implements StatsInterface
+class Stats extends ManagementEndpoint implements StatsInterface
 {
     public function getActiveUsers(
         ?RequestOptions $options = null,

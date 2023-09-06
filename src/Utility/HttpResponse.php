@@ -7,7 +7,7 @@ namespace Auth0\SDK\Utility;
 use JsonException;
 use Psr\Http\Message\{ResponseInterface, StreamInterface};
 
-final class HttpResponse
+class HttpResponse
 {
     /**
      * Extract the content from an HTTP response and parse as JSON (ResponseInterface).

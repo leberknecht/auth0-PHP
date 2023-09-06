@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Tickets
  */
-final class Tickets extends ManagementEndpoint implements TicketsInterface
+class Tickets extends ManagementEndpoint implements TicketsInterface
 {
     public function createEmailVerification(
         string $userId,

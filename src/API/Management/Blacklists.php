@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Blacklists
  */
-final class Blacklists extends ManagementEndpoint implements BlacklistsInterface
+class Blacklists extends ManagementEndpoint implements BlacklistsInterface
 {
     public function create(
         string $jti,

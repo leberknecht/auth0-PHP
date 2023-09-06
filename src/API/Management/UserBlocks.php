@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/User_Blocks
  */
-final class UserBlocks extends ManagementEndpoint implements UserBlocksInterface
+class UserBlocks extends ManagementEndpoint implements UserBlocksInterface
 {
     public function delete(
         string $id,

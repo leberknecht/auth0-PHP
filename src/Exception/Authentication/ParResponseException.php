@@ -14,7 +14,7 @@ use Throwable;
  *
  * @codeCoverageIgnore
  */
-final class ParResponseException extends Exception implements ExtendedExceptionInterface
+class ParResponseException extends Exception implements ExtendedExceptionInterface
 {
     public function __construct(
         ?string $message = null,

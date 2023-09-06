@@ -15,7 +15,7 @@ use Psr\Http\Message\ResponseInterface;
 
 use function is_array;
 
-final class Authentication extends ClientAbstract implements AuthenticationInterface
+class Authentication extends ClientAbstract implements AuthenticationInterface
 {
     /**
      * @var string

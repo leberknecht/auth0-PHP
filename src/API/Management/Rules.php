@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Rules
  */
-final class Rules extends ManagementEndpoint implements RulesInterface
+class Rules extends ManagementEndpoint implements RulesInterface
 {
     public function create(
         string $name,

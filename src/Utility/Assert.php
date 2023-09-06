@@ -43,7 +43,7 @@ use function is_string;
  *
  * @codeCoverageIgnore
  */
-final class Assert
+class Assert
 {
     private function __construct()
     {

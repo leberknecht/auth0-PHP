@@ -13,7 +13,7 @@ use function defined;
 /**
  * This class provides a layer to persist data using PHP Sessions.
  */
-final class SessionStore implements StoreInterface
+class SessionStore implements StoreInterface
 {
     /**
      * SessionStore constructor.

@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Connections
  */
-final class Connections extends ManagementEndpoint implements ConnectionsInterface
+class Connections extends ManagementEndpoint implements ConnectionsInterface
 {
     public function create(
         string $name,

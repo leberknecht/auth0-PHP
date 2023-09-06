@@ -12,7 +12,7 @@ use function is_array;
 use function is_int;
 use function is_string;
 
-final class SdkState implements ConfigurableContract
+class SdkState implements ConfigurableContract
 {
     use ConfigurableMixin;
 

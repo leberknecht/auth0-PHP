@@ -25,7 +25,7 @@ use function is_bool;
 use function is_int;
 use function is_string;
 
-final class SdkConfiguration implements ConfigurableContract
+class SdkConfiguration implements ConfigurableContract
 {
     use ConfigurableMixin;
 

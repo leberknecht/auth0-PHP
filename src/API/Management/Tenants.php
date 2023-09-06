@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Tenants
  */
-final class Tenants extends ManagementEndpoint implements TenantsInterface
+class Tenants extends ManagementEndpoint implements TenantsInterface
 {
     public function getSettings(
         ?RequestOptions $options = null,

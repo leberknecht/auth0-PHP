@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Users_By_Email
  */
-final class UsersByEmail extends ManagementEndpoint implements UsersByEmailInterface
+class UsersByEmail extends ManagementEndpoint implements UsersByEmailInterface
 {
     public function get(
         string $email,

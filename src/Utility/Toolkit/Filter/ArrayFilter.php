@@ -11,7 +11,7 @@ use function array_slice;
 use function is_array;
 use function is_string;
 
-final class ArrayFilter
+class ArrayFilter
 {
     /**
      * StringFilter constructor.

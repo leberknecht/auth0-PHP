@@ -12,7 +12,7 @@ use Psr\Cache\CacheItemPoolInterface;
 use function count;
 use function is_array;
 
-final class Parser
+class Parser
 {
     /**
      * State.

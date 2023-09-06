@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Email_Templates
  */
-final class EmailTemplates extends ManagementEndpoint implements EmailTemplatesInterface
+class EmailTemplates extends ManagementEndpoint implements EmailTemplatesInterface
 {
     public function create(
         string $template,

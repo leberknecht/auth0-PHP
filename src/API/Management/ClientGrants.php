@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Client_Grants
  */
-final class ClientGrants extends ManagementEndpoint implements ClientGrantsInterface
+class ClientGrants extends ManagementEndpoint implements ClientGrantsInterface
 {
     public function create(
         string $clientId,

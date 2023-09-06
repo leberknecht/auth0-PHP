@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * @see https://auth0.com/docs/api/management/v2#!/Roles
  */
-final class Roles extends ManagementEndpoint implements RolesInterface
+class Roles extends ManagementEndpoint implements RolesInterface
 {
     public function addPermissions(
         string $id,

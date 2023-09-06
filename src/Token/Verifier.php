@@ -19,7 +19,7 @@ use function count;
 use function is_array;
 use function is_bool;
 
-final class Verifier
+class Verifier
 {
     /**
      * Constructor for the Token Verifier class.
